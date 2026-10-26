@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="aurora" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#091A3A"/>
+      <stop offset="0.45" stop-color="#10356B"/>
+      <stop offset="0.78" stop-color="#149ABF"/>
+      <stop offset="1" stop-color="#00BFB2"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#aurora)" d="M32 2C36 12 46 18 54 26C59 31 60 38 60 44V60H50V44A7.5 7.5 0 0 0 35 44V60H29V44A7.5 7.5 0 0 0 14 44V60H4V44C4 38 5 31 10 26C18 18 28 12 32 2Z"/>
+  <path fill="#fff" d="M30 20h4v5h5v4h-5v5h-4v-5h-5v-4h5z"/>
+</svg>

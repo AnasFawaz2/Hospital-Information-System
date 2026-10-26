@@ -37,6 +37,16 @@ Critical results waiting for acknowledgement, consult requests, notes to sign, w
 | ![Theatre](screenshots/08-operating-theatre.png) | ![Reports](screenshots/09-hospital-reports.png) |
 | Theatre list with the safety checklist that gates the start of a case. | Beds, admissions, theatre, diagnostics, stock, staffing and finance at a glance. |
 
+| Pharmacy review | Laboratory worklist |
+|---|---|
+| ![Pharmacy](screenshots/11-pharmacy-review.png) | ![Laboratory](screenshots/12-laboratory-worklist.png) |
+| A prescriber can never review or dispense their own order. | Orders to collect, process and verify. |
+
+| Critical results | Patient registry |
+|---|---|
+| ![Critical results](screenshots/13-critical-results.png) | ![Patients](screenshots/10-patient-search.png) |
+| Results that need a clinician's acknowledgement, with their age and the target. | Search by MRN, name, date of birth, phone or city. |
+
 ## How a shift works
 
 1. **The nurse signs in** and lands on the dashboard: tasks that are due, beds and staffing of the unit, and the patients who need attention now.
@@ -82,6 +92,17 @@ flowchart LR
 | Database | SQL Server; EF Core for the model and transactions, stored procedures for every search and report |
 | Quality | About 180 integration tests that run the real API against a real SQL Server database; continuous integration on every change |
 | Deployment | Docker Compose for the demonstration installation |
+
+## More in this repository
+
+| | |
+|---|---|
+| [How it works, role by role](docs/how-it-works.md) | What the nurse, doctor, pharmacist, laboratory and billing see and do. |
+| [Architecture](docs/architecture.md) | Layers, principles and one request end to end. |
+| [Safety, privacy and control](docs/safety-and-privacy.md) | Who sees what, what is recorded, the safety nets. |
+| [Glossary](docs/glossary.md) | NEWS2, MAR, ESI, SBAR, break-glass and the other terms. |
+| [Roadmap](docs/roadmap.md) | Ideas for what comes next. |
+| [`assets/`](assets) | The product mark and a social preview image. |
 
 ## Status
 
